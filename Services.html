@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Services</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Index.html">
+            <img src="img/logo_transparent.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <div class="nav-rightside">
+                    <i class="fas fa-phone"></i>
+                    +44 191 455 7903
+
+                </div>
+            </form>
+        </div>
+
+    </nav>
+    <div class="landing">
+        <div class="container">
+            <div class="row">
+                <div class="contact-title">
+                    Services
+                </div>
+            </div>
+            <div class="row">
+                <div class="outer-subheader-small">
+                    Check out our fantastic services and price guidelines below!
+                </div>
+            </div>
+            <div class="row">
+                <div id="search-bar">
+                    <input type="text" id="myInput" value="" class="form-control form-control-lg form-control-border"
+                    onkeyup="filterCards()" placeholder="Filtering | Search Bar">
+                    </input>
+                </div>
+            </div>
+
+            <div class="row" id="myCards">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cut and finish short/medium hair
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £20 <br>
+                                Wash cut and finish
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cut and finish long hair</h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £23
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Short hair blow dry
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                30 minutes • £13
+                                <br>
+                                Wash dried and finished
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Long hair blowdry
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £15 long hair including curls
+                                <br>
+                                Wash blowdryed and curled
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--NEW ROW OF CARDS-->
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Long hair blowdry
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £15 long hair including curls
+                                <br>
+                                Wash blowdryed and curled
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gents wash cut and finish
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £9
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gents spray and cut
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £7
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Childs wash cut and finish
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £15
+                                <br>
+                                Age 13 and under
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--NEW ROW OF CARDS-->
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Childs spray and cut
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £10
+                                <br>
+                                Age 10 and under
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Infants spray and cut
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £6
+                                <br>
+                                Age 5 and under
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fringe trim
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £2
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Colour correction
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • Price on application
+                                <br>
+                                A consultation will be required.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!--NEW ROW OF CARDS-->
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Clynol Curlylocks Perm
+
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £40.
+                                <br>
+                                There will be extra charge for longer hair
+                                <br>
+                                Our perms are inclusive of cut and finish
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Toner
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £10
+                                <br>
+                                In addition to any colouring service
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cap hi-lites
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £20
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Semi permanent colour
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £20
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!--NEW ROW OF CARDS-->
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Full head easimeche with colour inbetween
+
+
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £40
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Half head Easimeche with colour inbetween
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £35
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Full head Easimeche
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £35
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Half head Easimeche
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £30
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!--NEW ROW OF CARDS-->
+
+
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Full head colour application
+
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+
+                                Duration varies • £25
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gallery/cutzpp.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Root application
+
+
+
+
+
+
+                            </h5>
+
+                            <p class="card-subtext">
+                                Duration varies • £20
+                                <br>
+                                Cut and finish to be added extra
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="openTimes.js"></script>
+<script src="validator.js"></script>
+<!--<script>
+    $(document).ready(function () {
+        $("#myInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $("#MyCards .card").filter(function () {
+                $(this).toggle($(this).find('h5').text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        filterCards();
+    });
+</script>
+<script type="text/javascript">
+    function filterCards() {
+        var input, filter, cards, cardContainer, h5, title, p, price, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        cardContainer = document.getElementById("myCards");
+        cards = cardContainer.getElementsByClassName("card");
+        for (i = 0; i < cards.length; i++) {
+            title = cards[i].querySelector(".card-body h5.card-title");
+            if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+                cards[i].parentNode.style.display = "";
+            } else {
+                cards[i].parentNode.style.setProperty('display', 'none', 'important');
+                /*style.display = "none"; */
+            }
+
+           
+        }
+    }
+ 
+</script>
+
+</html>
