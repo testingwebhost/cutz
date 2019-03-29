@@ -1,2 +1,0 @@
-# cutz
-Cutz Website Hosting
